@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+header .highlight {
+    color: orange;
+    font-weight: 700;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    flex: 1;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sidebar img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    margin: 0 10px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.download-resume {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main-content {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.about {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+}
+
+.skills {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 24px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+}
+
+.skill-card {
+    margin-top: 20px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color: orange;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
